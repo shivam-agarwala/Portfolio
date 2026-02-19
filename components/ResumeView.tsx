@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-export type ResumeType = 'Technical' | 'Managerial' | 'Finance';
+export type ResumeType = 'Technical' | 'Product' | 'Finance';
 
 interface ResumeViewProps {
   type: ResumeType;
@@ -87,7 +86,7 @@ const ResumeView: React.FC<ResumeViewProps> = ({ type, onBack, onSwitch }) => {
             </section>
           </>
         );
-      case 'Managerial':
+      case 'Product':
         return (
           <>
             <section className="mb-4">
@@ -187,7 +186,7 @@ const ResumeView: React.FC<ResumeViewProps> = ({ type, onBack, onSwitch }) => {
         </div>
 
         <nav className="flex flex-col gap-2">
-          {(['Technical', 'Managerial', 'Finance'] as ResumeType[]).map((r) => (
+          {(['Technical', 'Product', 'Finance'] as ResumeType[]).map((r) => (
             <button
               key={r}
               onClick={() => onSwitch(r)}

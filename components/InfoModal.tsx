@@ -24,7 +24,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
 
   const resumeOptions = [
     { title: "Technical", url: RESUME_LINKS.Technical, desc: "Engineering & Computer Science focus" },
-    { title: "Consulting", url: RESUME_LINKS.Consulting, desc: "Strategy & Management focus" },
+    { title: "Product", url: RESUME_LINKS.Product, desc: "product management perspective" },
     { title: "Finance", url: RESUME_LINKS.Finance, desc: "Valuation & Markets focused" }
   ];
 

@@ -40,9 +40,9 @@ const DEBATE_SCREENSHOT = "https://i.ibb.co/27wW0jpz/Screenshot-2026-01-21-at-4-
 const CHESS_SCREENSHOT = "https://i.ibb.co/030W8CN/Screenshot-2026-01-21-at-4-12-24-PM.png";
 
 export const RESUME_LINKS = {
-  Technical: "https://drive.google.com/file/d/1eDI7iQklL1n7GyZ31jeVKOIZHKkgtfXb/view?usp=sharing",
-  Consulting: "https://drive.google.com/file/d/1qn4TaJzo9w0smZ4vjO1EPm3FtA643d3B/view?usp=sharing",
-  Finance: "https://drive.google.com/file/d/1-iV9k3_ILzn6iBm6Vt3nWmwYQJNyhlek/view?usp=sharing"
+  Technical: "https://drive.google.com/file/d/1292nzo7CQ27C8WSMM-G1tkf67N20_qb8/view?usp=sharing",
+  Product: "https://drive.google.com/file/d/1bBlsodIk2vzkQOINwxSz3Q6Vdral0UlB/view?usp=sharing",
+  Finance: "https://drive.google.com/file/d/10UY9Fjct9XGqIJFmZrPNGXN_gxUjIRVf/view?usp=sharing"
 };
 
 export const COURSES = {

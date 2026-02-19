@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 
   const resumeOptions = [
     { title: "Technical", url: RESUME_LINKS.Technical },
-    { title: "Consulting", url: RESUME_LINKS.Consulting },
+    { title: "Product", url: RESUME_LINKS.Product },
     { title: "Finance", url: RESUME_LINKS.Finance }
   ];
 
@@ -163,7 +163,7 @@ const Footer: React.FC = () => {
                          className="w-full text-left px-6 py-4 hover:bg-white/5 border-b border-white/5 last:border-0 transition-colors flex items-center gap-4"
                          onClick={() => handleResumeClick(opt.url)}
                        >
-                          <span className="text-sm font-bold text-white">{opt.title} Focus</span>
+                          <span className="text-sm font-bold text-white">{opt.title} Perspective</span>
                        </button>
                      ))}
                   </div>

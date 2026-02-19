@@ -3,7 +3,8 @@ import { SEASONS } from '../constants.tsx';
 import { Episode } from '../types';
 
 const SeasonDetail: React.FC = () => {
-  const [activeSeasonIndex, setActiveSeasonIndex] = useState(0);
+  // Set default to index 1 (Season 2: The BITSian Journey)
+  const [activeSeasonIndex, setActiveSeasonIndex] = useState(1);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedEpisode, setSelectedEpisode] = useState<Episode | null>(null);
   
